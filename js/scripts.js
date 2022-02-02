@@ -71,7 +71,7 @@ if (dropdownCheck !== null) {
 }
   
 
-/* Card Slider - Swiper */
+
 var cardSlider = new Swiper('.card-slider', {
 	autoplay: {
 		delay: 4000,
@@ -95,22 +95,22 @@ var imageSlider = new Swiper('.image-slider', {
 	spaceBetween: 50,
 	slidesPerView: 5,
 	breakpoints: {
-		// when window is <= 575px
+
 		575: {
 			slidesPerView: 1,
 			spaceBetween: 10
 		},
-		// when window is <= 767px
+
 		767: {
 			slidesPerView: 2,
 			spaceBetween: 20
 		},
-		// when window is <= 991px
+
 		991: {
 			slidesPerView: 3,
 			spaceBetween: 20
 		},
-		// when window is <= 1199px
+
 		1199: {
 			slidesPerView: 4,
 			spaceBetween: 20
@@ -120,11 +120,9 @@ var imageSlider = new Swiper('.image-slider', {
 });
 
 
-/* Back To Top Button */
-// Get the button
 myButton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+
 function scrollFunctionBTT() {
 	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 		myButton.style.display = "block";
@@ -133,8 +131,8 @@ function scrollFunctionBTT() {
 	}
 }
 
-// When the user clicks on the button, scroll to the top of the document
+
 function topFunction() {
-	document.body.scrollTop = 0; // for Safari
-	document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
+	document.body.scrollTop = 0; 
+	document.documentElement.scrollTop = 0; 
 }
