@@ -36,7 +36,9 @@
 
     <script>
         function alerta() {
-            window.alert("Por conta da hospedagem aceitar apenas HTML, CSS E JAVASCRIPT. A conexão com o banco de dados foi removida.");
+            window.alert(
+                "Por conta da hospedagem aceitar apenas HTML, CSS E JAVASCRIPT. A conexão com o banco de dados foi removida."
+            );
         }
     </script>
 
@@ -176,7 +178,7 @@
                 ================================== -->
 
                 <div
-                    class="col-lg-6 mt-5 mt-lg-0 d-flex justify-content-center border-top border-bottom border-info rounded shadow py-1">
+                    class="col-lg-6 mt-5 mt-lg-0 d-flex justify-content-center border-top border-bottom rounded shadow py-3">
                     <form method="post">
 
                         <div class="row">
@@ -209,7 +211,7 @@
 
                         <!-- BTN ENVIAR -->
                         <div class="text-center"><button type="button" id="btn-enviar-email" name="btn-enviar-email"
-                                class="btn btn-primary" onclick="alerta()">Enviar email</button>
+                                class="btn btn-primary mb-4" onclick="alerta()">Enviar email</button>
                         </div>
                     </form>
                 </div>
@@ -333,16 +335,11 @@
         </div> <!-- end of container -->
     </footer>
 
-    <!-- BTN TOP -->
-
-    <button onclick="topFunction()" id="myBtn">
-        <img src="images/up-arrow.png" alt="alternative">
-    </button>
 
 
     <!-- Scripts -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/bootstrap.bumdle.min.js"></script> <!-- Bootstrap framework -->
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
